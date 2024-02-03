@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(186, 186, 186);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    width: 31%;
+    margin: 2rem;
+    height: 200px;
+    border: dashed 8px rgb(29, 29, 29);
+    box-shadow: 2px 2px 2px 2px rgb(105, 105, 105, .3);
+}
+
+.red {
+    background-color: rgb(206, 15, 15);
+}
+
+.blue {
+    background-color: rgb(4, 4, 208);
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
